@@ -1,0 +1,442 @@
+body{
+    font-family: 'Comfortaa', cursive;
+
+}
+.text-slanted{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/* Home page ********************* */
+/* navbar */
+.navbar-toggler{
+    outline: none !important;
+    color: rgb(235, 157, 157) !important;
+    font-size: 2rem;
+    border: none;
+}
+
+.nav-link {
+font-size: 1.5rem;
+}
+.nav-active{
+    border-bottom: 0.1rem solid rgb(235, 157, 157);
+}
+
+.navbar-icon{
+    font-size: 1.6rem;
+}
+
+.navbar-cart{
+    color: black;
+    font-size: 1.6rem;
+    position: relative;
+}
+.cart-item{
+    position: absolute;
+    top:-82%;
+    right: -25%;
+    color: #fff;
+    background-color: rgb(235, 157, 157);
+    padding: 0.1rem 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navbar-cart:hover{
+    color: #9b9999;
+}
+/* end of navbar */
+
+/* banner****** */
+.banner{
+    background: url('../img/sport.webp')  ;
+    background-repeat: no-repeat;
+    min-height:70vh;
+}
+.text-gren{
+    color: rgb(207, 226, 123);
+}
+
+.btn-yellow{
+    background-color: chocolate;
+    text-transform: capitalize;
+
+}
+.btn-yellow:hover{
+    background-color: black;
+    color: rgb(255, 0, 212);
+}
+
+
+/* *********************************************************** */
+.service-icon{
+    color: rgb(235, 157, 157);
+    background-color: grey;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* category section*************************************************************** */
+.category-links {
+    color: black;
+    text-decoration: none;
+}
+.category-links:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.category-container{
+    position: relative;
+}
+.category-img{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.category-container:hover .category-img{
+    opacity: 0.5;
+}
+
+.category-link{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background-color: #fff;
+    color: black;
+    padding: .2rem 3rem .2rem .2rem;
+    clip-path: polygon(0 0,80% 0,100% 100%,0 100%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.category-container:hover .category-link{
+    opacity: 1;
+    text-decoration: none;
+    color: chocolate;
+}
+
+/* end of category section*************************************************************** */
+/* description ********************************/
+.home-describe{
+    min-height: 60vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/Carson_Homme_RVB_v2.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.collection-link{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.collection-link:hover{
+    color: rgb(175, 79, 10);
+    text-decoration: none;
+}
+
+/* end of description******************************* */
+/* column item**************** */
+
+.heading-underline{
+    height: 0.1rem;
+    width: 6rem;
+    background: chocolate;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+}
+.product-link:hover{
+    color: grey;
+    text-decoration: none;
+}
+.product-color{
+    height: 1rem;
+    width: 1rem;
+}
+.product-color-red{
+    background-color: red;
+}
+.product-color-blue{
+    background-color: blue;
+}
+.product-color-grey{
+    background-color: grey;
+}
+.product-color-yellow{
+    background-color: yellow;
+}
+.product-color-brown{
+    background-color: brown;
+}
+/* the buttons */
+.btn-outline-brown-sm{
+    color:black ;
+    border: solid 1px rgb(235, 157, 157);
+}
+.btn-outline-brown-sm:hover{
+    color: rgb(235, 157, 157);
+    background-color: black;
+}
+/* the small img */
+.small-img{
+    opacity: 0.6;
+    border: 0.1rem solid transparent;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.small-img:hover{
+    opacity: 1;
+    border: solid 1px chocolate;
+}
+/* rate */
+.rate-icon{
+    color:chocolate ;
+}
+.rate-icon-simple{
+    color: chocolate;
+}
+.btn-browns{
+    background-color: black;
+    color: rgb(235, 157, 157)
+}
+.btn-browns:hover{
+    background-color: black;
+    color: rgb(235, 157, 157)
+}
+
+/* end of column item ****************************************/
+/* item info */
+.bg-grey-light{
+    background-color: rgb(238, 231, 231);
+}
+.bg-grey-light a{
+    text-decoration: none;
+    color: gray;
+}
+.bg-grey-light a:hover{
+    color: chocolate;
+}
+/* end of item info ******************************************/
+/* collection section ***********************************************************/
+.collection-container{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-search-icon{
+    background-color: #fff;
+    padding: 0.2rem 0.4rem;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    top: 60%;
+    font-size: 1.3rem;
+    transform: translateX(120%);
+    -webkit-transform: translateX(120%);
+    -moz-transform: translateX(120%);
+    -ms-transform: translateX(120%);
+    -o-transform: translateX(120%);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.collection-container:hover .collection-search-icon{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+
+.collection-store-link{
+    background-color: rgb(235, 157, 157);
+    color: black;
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    right: 0%;
+    top: 80%;
+    transform: translateX(120%);
+    -webkit-transform: translateX(120%);
+    -moz-transform: translateX(120%);
+    -ms-transform: translateX(120%);
+    -o-transform: translateX(120%);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    cursor: pointer;
+   
+}
+.collection-container a{
+    text-decoration: none;
+}
+
+.collection-container:hover .collection-store-link{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+/* end of collection section  *******************************************************************/
+
+/* partners section */
+.partners{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev{
+    font-size: 2.5rem;
+    color: black;
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+}
+.carousel-control-prev:hover{
+    color: rgb(209, 127, 127);
+}
+
+.carousel-control-next{
+    font-size: 2.5rem;
+    color: black;
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+}
+.carousel-control-next:hover{
+    color: rgb(209, 127, 127);
+}
+
+/* end of partners section ********************************************************************/
+
+/* new Visitor */
+.btn-brown{
+    background-color:rgb(235, 157, 157) ;
+}
+
+/* end of new Visitor ********************************************************/
+/* features */
+.feature{
+    background-color: black;
+    
+}
+
+.icon-color{
+    color:  rgb(235, 157, 157);
+    font-size: 2rem;
+}
+
+/*end of  features *****************************************/
+
+/* contact us */
+.btn-outline-brown{
+    color:rgb(196, 117, 117) ;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border: rgb(235, 157, 157) 1px solid;
+}
+
+.btn-outline-brown:hover{
+    color: rgb(196, 117, 117);
+    background-color: black;
+}
+
+.text-brown{
+    color:rgb(196, 117, 117) ;
+    font-size: 2rem;
+    
+}
+.contact{
+    background-color: rgb(75, 71, 71);
+}
+
+
+/* ################################################################################ */
+/* products page */
+.banner-products{
+    min-height: 60vh;
+    background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)) ,url('../img/pocket.webp') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.product-heading{
+    color: rgb(180, 63, 63);
+    font-size: 3rem;
+}
+
+.product-heading-green{
+    color: yellowgreen;
+}
+
+/* ########################################################################## */
+/* banner page */
+
+.banner-all-products{
+    min-height: 60vh;
+    background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)) ,url('../img/Carson_Homme_RVB_v2.webp') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ########################################################################### */
+/* store page */
+
+.banner-store{
+    min-height: 60vh;
+    background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)) ,url('../img/watch-1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.btn-outline-brown-smm{
+    background-color: black;
+    color:rgb(235, 157, 157) ;
+}
+.btn-outline-brown-smm:hover{
+    background-color: black;
+    color:rgb(235, 157, 157) ;
+}
